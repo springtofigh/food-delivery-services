@@ -536,7 +536,7 @@ section:not(.hero) .button {
 /* PHONS */
 @media screen and (max-width: 424px) {
     .navbar .logo{
-        display: none;
+        margin-inline:auto;
     }
 
     .collapsible-menu {
