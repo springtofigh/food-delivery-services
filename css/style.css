@@ -57,6 +57,16 @@ button , input {
     cursor: pointer;
 }
 
+/* SCOROLLBAR STYLES */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+    ::-webkit-scrollbar-thumb {
+    background: rgb(189, 189, 189); 
+    border-radius: 10px;
+}
+
 /* Reusable classes */
 .d-grid {
     display: grid;
