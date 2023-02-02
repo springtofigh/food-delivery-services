@@ -21,7 +21,6 @@
 }
 
 html {
-    font-size: 10px;
     font-size: 62.5%;
 }
 
@@ -225,7 +224,7 @@ button , input {
     top: 2px;
     left: -1.6rem;
     width: 2px;
-    height: 2.7rem;
+    height: 2.4rem;
     background-color: #e6e1e1;
 }
 
@@ -533,7 +532,8 @@ section:not(.hero) .button {
 }
 
 /* MEDIA QUERIES */
-/* IPHON */
+
+/* PHONS */
 @media screen and (max-width: 424px) {
     .navbar .logo{
         display: none;
@@ -552,7 +552,7 @@ section:not(.hero) .button {
     }
 }
 
-/* TABLATE */
+/* TABLATES */
 @media screen and (min-width: 768px) {
     body {
         font-size: 1.6rem;
@@ -585,6 +585,10 @@ section:not(.hero) .button {
 
     .hero .button {
         font-size: inherit;
+    }
+
+    .hero .button-transparent {
+        width: 100%;
     }
 
     .play-icon-image {
@@ -631,7 +635,7 @@ section:not(.hero) .button {
     }
 }
 
-/* DESKTOP */
+/* DESKTOPS */
 @media screen and (min-width: 1024px) {
 
     .container {
@@ -757,7 +761,33 @@ section:not(.hero) .button {
     }
 }
 
-/* LARG DESKTOP */
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 114rem;
+    }
+
+    .main-title {
+        font-size: 4.8rem;
+        line-height: 8.8rem;
+    }
+
+    .section:not(.what-we-serve) .section-title {
+        max-width: 90%;
+    }
+
+    .card-group {
+        max-width: 95rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .company-data {
+        max-width: 75%;
+    }
+
+}
+
+/* LARG DESKTOPS */
 @media screen and (min-width: 1400px) {
     .container {
         max-width: 132rem;
