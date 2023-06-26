@@ -2,10 +2,10 @@
 
 A responsive food delivery web application
 
-[![Grover   food delivery service-1](https://i.im.ge/2023/05/21/hXLHtq.Grover-food-delivery-service-1.png)](https://im.ge/i/hXLHtq)
+![Grover   food delivery service-1](https://github.com/springtofigh/food-delivery-services/assets/90114320/8da0adc0-099b-4a05-b1b5-70f06a824217)
 
 
-## Technologies that I use in this peoject
+## Technologies that I use in this project
 
 ✴ HTML
 
